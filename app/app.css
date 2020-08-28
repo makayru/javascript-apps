@@ -1,0 +1,36 @@
+.opt {
+    background-color: rgb(39, 39, 39);
+    width: 80px;
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 4px 2px;
+    opacity: 0.9;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.opt:hover {
+    opacity: 1;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.whole {
+    text-align: center;
+    background-color: rgb(55, 55, 55);
+    width: 300px;
+    margin: 10px auto 0px;
+    border-radius: 50px;
+}
+
+.uitkomst {
+    color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    color: black;
+}
